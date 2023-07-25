@@ -5,9 +5,9 @@
     margin: 0;
 }
 :root{
-    --cor-fundo: rgb(0, 17, 255);
+    --cor-fundo: rgb(214, 161, 125);
     --cor-fonte: rgb(250, 250, 250);
-    --cor-hover: rgb(89,87,219);
+    --cor-hover: rgb(223, 13, 97);
 
 }
 a{
@@ -99,29 +99,29 @@ ul {    width: 100%;
 }
 .conteudo {
     width: 100%;
-    background-color: rgb(0, 238, 255);
+    background-color: var(--cor-hover);
 }
 
 .rodape {
-    background-color: rgb(0, 255, 0);
+    background-color: var(--cor-fundo);
     width: 100%;
     text-align: center;
 }
 .info-cinema {
     width: 100%;
-    background-color: rgb(250, 138, 1);
+    background-color: var(--cor-hover);
 }
 .info-filme {
     width: 100%;
-    background-color: rgb(141, 110, 69);
+    background-color: var(--cor-hover);
 }
 .info-filme-retro {
     width: 100%;
-    background-color: rgb(252, 140, 3);
+    background-color: var(--cor-hover);
 }
 .info-destaque {
     width: 100%;
-    background-color: rgb(146, 109, 61);
+    background-color: var(--cor-hover);
 }
 .img-estilo {
     width: 100%;
